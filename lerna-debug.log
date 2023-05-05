@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   D: true,
+0 silly argv   dev: true,
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': '..\\..\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   pkg: '@types/jsonwebtokens'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath C:\Users\wesle\Documents\Development\nextjs-auth-strategies
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@types%2fjsonwebtokens - Not found
+3 error     at C:\Users\wesle\Documents\Development\nextjs-auth-strategies\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+3 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+3 error     at async RegistryFetcher.packument (C:\Users\wesle\Documents\Development\nextjs-auth-strategies\node_modules\pacote\lib\registry.js:92:19)
